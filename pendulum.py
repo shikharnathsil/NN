@@ -13,7 +13,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Double Pendulum")
 
 # Colors
-WHITE = (255, 255, 255)
+WHITE = (205, 205, 255)
 BLACK = (0, 0, 0)
 
 # Pendulum properties
@@ -26,7 +26,7 @@ angle2 = math.pi / 6  # Initial angle of second pendulum
 angular_velocity1 = 0
 angular_velocity2 = 0
 gravity = 9.81
-damping = 1.01
+damping = 1.009
 
 # Game loop
 running = True
